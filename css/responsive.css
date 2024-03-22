@@ -1,0 +1,339 @@
+@import url('style.css');
+
+/* This Apply On Small Laptop (991px) and below  */
+@media screen and (max-width: 1300px) {
+    .contact-us-form {
+        width: 45%;
+    }
+}
+/* This Apply On Small Laptop (1024px) and below  */
+@media screen and (max-width: 1024px) {
+    .contact-info {
+        width: 490px;
+    }
+    .social-icons {
+        margin: 25px 0 50px auto;
+    }
+    .map img,
+    .message img,
+    .mobile img {
+        width: 25px;
+    }
+        
+.social-icons {
+    background: var(--theme-main-color);
+}
+
+.social-icons li {
+    margin: 20px;
+}
+}
+
+/* This Apply On Small Laptop (991px) and below  */
+@media screen and (max-width: 991px) {
+   
+    .carousel-caption h5 {
+        font-size: 50px !important;
+    }
+
+    .carousel-caption p {
+        font-size: 1em;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .banner-slider .carousel-item>img {
+        height: 530px;
+    }
+    .section-title {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+   
+    .video-wrapper-second {
+        margin-left: 25px;
+    }
+    .mission-main {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .contact-info {
+        width: 390px;
+    }
+    .contact-us::after{
+        width: 270px;
+    }
+    .social-icons{
+        width: 250px;
+    }
+    .social-icons li i {
+        padding:0;
+        font-size: 20px;
+    }
+    .map p {
+        font-size: 14px;
+    }
+    .contact-info h3{
+        font-size: 27px;
+    }
+}
+
+/* This Apply On Small Laptop (768px) and below  */
+@media screen and (max-width: 768px) {
+    .banner-slider .carousel-item>img {
+        height: 400px;
+    }
+
+    .banner-slider .carousel-caption h5 {
+        font-size: 35px !important;
+    }
+
+    .banner-slider .carousel-indicators {
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        flex-wrap: nowrap;
+        top: auto;
+        transform: unset;
+        width: auto;
+        gap: 5px;
+    }
+
+    .banner-slider .carousel-indicators [data-bs-target] {
+        width: 12px;
+        height: 12px;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    .banner-slider .carousel-caption {
+        top: 18%;
+    }
+    .contact-info {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+    }
+    .contact-us::after {
+       display: none;
+    }
+    .contact-us-form{
+        width: 100%;
+    }
+    .social-icons {
+        width: 100%;
+        margin: 0;
+    }
+    .form-control {
+        margin-bottom: 18px;
+        padding: 10px 0 11px 0 !important;
+        font-size: 14px !important;
+    }
+    .mission-slider .slick-dots{
+        margin-bottom: -12px;
+    }
+}
+
+/* This Apply On Small Laptop (575px) and below  */
+@media screen and (max-width: 575px) {
+   header .theme-btn a {
+        color: #000 !important;
+    }
+    .navbar .navbar-collapse.collapse.show {
+        align-items: flex-start;
+        transition: 0.5s all;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 68px;
+        height: 100vh;
+    }
+
+    .navbar .navbar-collapse.collapse {
+        transition: 0.5s all;
+        padding: 20px;
+    }
+
+    .main-side-list {
+        top: 60px;
+        left: 0;
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background: var(--theme-main-color);
+        z-index: 999;
+        transform: translatex(100%);
+        transition: all .5s linear;
+        padding: 20px;
+        align-items: flex-start !important;
+    }
+
+    .main-side-list ul {
+        flex-direction: column;
+    }
+
+    header ul li a {
+        color: #fff !important;
+        font-size: 18px !important;
+    }
+
+    header .menu-bar {
+        display: block !important;
+    }
+
+    header .menu-bar i {
+        font-size: 25px;
+        color: #32486f;
+        display: block !important;
+    }
+
+    .menu-links {
+        flex-direction: column !important;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        background: var(--theme-main-color);
+        width: 100%;
+        height: 100vh;
+        padding: 20px 0;
+        align-items: flex-start !important;
+        display: none;
+    }
+
+    header .theme-btn {
+        background-color: #fff;
+        color: var(--theme-main-color) !important;
+        font-weight: 600;
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+    .active .main-side-list {
+        transform: translateX(0%);
+        justify-content: left;
+        border-top: 1px solid #32486f;
+        padding: 20px;
+        align-items: flex-start !important;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    /* Banner Slider Resposnsive Css */
+    .carousel-caption h5 {
+        font-size: 27px;
+    }
+
+    .carousel-caption p {
+        font-size: 0.75em;
+    }
+
+    .carousel-caption {
+        width: 90% !important;
+        opacity: 0;
+        margin: 0 auto !important;
+        overflow: scroll;
+        top: 56%;
+    }
+
+    .carousel-item.active .carousel-caption {
+        animation: sample 2.5s 1;
+        opacity: 1;
+    }
+
+    @keyframes sample {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .banner-slider .carousel-caption h5 {
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    .banner-slider .carousel-caption * {
+        white-space: initial;
+    }
+
+    .banner-slider .carousel-caption br,
+    .banner-slider .carousel-caption h5 br {
+        display: none;
+    }
+
+    .banner-slider .carousel-caption h5 {
+        font-size: 26px !important;
+    }
+    .mission-main {
+        width: 90%;
+    }
+    .video-wrapper-second {
+        margin-left: 0px;
+    }
+    
+    .video-wrapper-third{
+        width: 60% !important;
+        margin: 0px auto;
+    }
+    .mobile img {
+    width: 15px;
+      }
+      .map img, .message img {
+        width: 18px;
+    }
+      .contact-info h3{
+        font-size: 23px;
+    }
+    .social-icons li i {
+        font-size: 18px;
+    }
+    .arrow-images{
+        width: 35px;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
+/* This Apply On Mobile View (320px) and below */
+@media screen and (max-width: 320px) {
+    .banner-slider .carousel-caption h5 {
+        font-size: 22px !important;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .contact-info h3{
+        font-size: 19px;
+    }
+    .video-wrapper-third{
+        width: 100% !important;
+        margin: 0px auto;
+    }
+    .our-service .overlay{
+        padding:8px;
+    }
+    .overlay h3{
+        font-size: 17px;
+    }
+    .overlay p{
+        font-size: 13px !important;
+        line-height:20px !important;
+    }
+}
